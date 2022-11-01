@@ -28,7 +28,7 @@ fn answer(s: String) -> bool {
 
     for c in s.chars() {
         println!("{}", c);
-        let pos = c as usize - 'a' as usize;
+        let pos = c as usize;
         if char_set[pos] {
             return false;
         }
